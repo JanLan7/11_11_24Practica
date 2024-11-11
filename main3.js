@@ -3,3 +3,17 @@
 
 // Pista: Usa el método .includes() para verificar si la palabra clave está presente en la cadena.
 
+//funcion principal
+function reseña (){
+    let experienciaDeCompra = prompt("Quisiera dejarnos algun comentario?: ")
+    let comprobacion = experienciaDeCompra.includes("excelente")
+    if(comprobacion){
+        alert("Gracias por tu excelente comentario 😎")
+    }else{
+        alert("Gracias por tu comentario ")
+    }
+alert("Hasta luego!")   
+}
+reseña();
+
+//Codigo concluido 😎
